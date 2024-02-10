@@ -137,7 +137,7 @@ h4 {
 }
 
  /* Fifth section */
-.section5 {
+.quote-container {
     background-color: #e5e7eb;
     padding-left: 30%;
     padding-right: 30%;
@@ -161,11 +161,36 @@ h4 {
  }
 
   /* Sixth section */
-  .blue-box {
+.blue-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    padding: 100px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 800px;
+    height: 100px;
     background-color: #3882f6;
-    border-radius: 20px;
+    color: #f9faf8;
+    border-radius: 10px;
   }
+
+.blue-box-left {
+    
+}
+
+.blue-box-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 30px;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 10px;
+}
