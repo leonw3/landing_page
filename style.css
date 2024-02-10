@@ -172,16 +172,22 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    width: 800px;
+    padding: 25px;
+    gap: 200px;
+    width: 1000px;
     height: 100px;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 10px;
   }
 
-.blue-box-left {
-    
+.call-to-action {
+    font-size: 24px;
+    margin: 2px;
+}
+
+.product-sign-up {
+    margin: 2px;
 }
 
 .blue-box-right {
