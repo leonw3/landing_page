@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto";
+    font-weight: 350;
 }
 
 /* First section */
@@ -21,7 +23,6 @@ body {
 
 .header-container {
     display: flex;
-    font-family: Roboto;
     color: #e5e7eb;
     font-size: 18px;
     margin-right: 17.5%;
@@ -73,6 +74,8 @@ h4 {
     display: flex;
     justify-content: center;
     padding: 2% 0;
+    font-size: 36px;
+    font-weight: 800;
 }
 
  /* Fourth section */
@@ -183,6 +186,7 @@ h4 {
 
 .call-to-action {
     font-size: 24px;
+    font-weight: 600;
     margin: 2px;
 }
 
@@ -199,4 +203,15 @@ h4 {
     border-style: solid;
     border-color: #f9faf8;
     border-radius: 10px;
+}
+
+  /* Seventh section */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-size: 18px;
 }
