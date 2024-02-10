@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* First section */
@@ -9,12 +10,13 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #f9faf8;
 }
 
 .header-logo {
     font-size: 24px;
+    margin-left: 17.5%;
 }
 
 .header-container {
@@ -22,6 +24,7 @@ body {
     font-family: Roboto;
     color: #e5e7eb;
     font-size: 18px;
+    margin-right: 17.5%;
 }  
 
 h4 {
@@ -64,4 +67,7 @@ h4 {
     justify-content: center;
     align-items: center;
 }
+
+/* Third section */
+
 
